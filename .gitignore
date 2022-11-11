@@ -2,3 +2,6 @@
 /.gen
 /.vscode
 /node_modules
+
+/.routegen
+/.env*
