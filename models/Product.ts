@@ -8,5 +8,5 @@ export class Product extends ChiselEntity {
   details: string
   soldOut: boolean = false
   category: Category = new Category()
-  createdAt: number = Date.now()
+  createdAt: Date = new Date()
 }
